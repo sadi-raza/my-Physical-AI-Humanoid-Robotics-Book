@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch --all --prune)",
+      "Bash(.specify/scripts/bash/create-new-feature.sh --json \" 1. Mission\nCreate a Docusaurus textbook (5 modules: ROS2, Gazebo/Unity, Isaac, VLA, Capstone).  \nBuild an integrated RAG chatbot (FastAPI + Qdrant + NeonDB + ChatKit + OpenAI Agents).  \nEnable chapter-level personalization + Urdu translation.  \nUse modular subagents and reusable skills.\n\n## 2. Writing Standards\nClear, correct, concise; APA citations; fact-checked.  \nEach chapter must include: outcomes, explanations, Mermaid diagram, ROS2/Gazebo/Isaac code, ≥2 exercises.  \nNo hallucinations.\n\n## 3. Book Structure\n5 modules → 2–3 chapters/module → 3–7 sections/chapter.\n\n## 4. Engineering Standards\n### RAG\nMandatory stack: FastAPI + Qdrant + NeonDB + ChatKit + Agents.  \nBook-only answers; citations + confidence; selected-text answering; <800ms.\n\n### Website\nButtons: Personalize (/api/personalize), Translate Urdu (/api/translate-ur).\n\n### Auth\nBetter-Auth: store user background → personalize chapters.\n\n## 5. Subagents & Skills\nSubagents: Research, Writing, Robotics, ROS2, Gazebo/Unity, Isaac, RAG, Frontend, Auth.  \nSkills must be modular + documented.  \nRequired skills: fact-check, citations, ros2-launch, gazebo-world, rag-ingest, personalize-content.\n\n## 6. Quality Requirements\nContent: Accurate, cited, structured; grade 10–12; ≥1 diagram; ≥2 exercises.  \nCode: Error-free; valid ROS2/Isaac syntax; commented; tested.  \nRAG: Book-only answers; <800ms; citations + confidence.\n\n## 7. Workflow\nUse Research → Foundation → Analysis → Synthesis.  \nUse inline research + /sp.rewrite enforce=''constitution''.\n\n## 8. Deployment\nDocusaurus → GitHub Pages/Vercel.  \nFastAPI → Railway/Render/Fly.io.  \nVectors: Qdrant Cloud.  \nRelational: NeonDB.\n\n## 9. Hackathon Requirements\nBuild full textbook + deployed RAG chatbot.  \nBonus points: Subagents, Skills, Better-Auth, Personalization, Urdu translation.  \nSubmit GitHub repo + published book + 90s demo video.\n\n## 10. Safety\nNo unsafe robotics steps or unsupported hardware.  \nInclude warnings for physical risks.\" --number 1 --short-name \"textbook-rag-platform\")",
+      "Bash(.specify/scripts/bash/check-prerequisites.sh --json --paths-only)",
+      "Bash(.specify/scripts/bash/check-prerequisites.sh --json)",
+      "Bash(.specify/scripts/bash/setup-plan.sh --json)",
+      "Bash(.specify/scripts/bash/update-agent-context.sh claude)",
+      "Bash(.specify/scripts/bash/create-adr.sh \"RAG Stack Selection\")",
+      "Bash(.specify/scripts/bash/create-adr.sh --help)",
+      "Bash(.specify/scripts/bash/create-adr.sh --title \"Frontend Framework Selection\" --json)",
+      "Bash(.specify/scripts/bash/create-adr.sh --title \"Modular Subagent Architecture\" --json)",
+      "Bash(.specify/scripts/bash/create-adr.sh --title \"Data Storage Strategy\" --json)",
+      "Bash(.specify/scripts/bash/create-adr.sh --title \"Deployment Architecture\" --json)",
+      "Bash(.specify/scripts/bash/check-prerequisites.sh --json --require-tasks --include-tasks)",
+      "Bash(cat specs/001-textbook-rag-platform/checklists/requirements.md)",
+      "Bash(pip install textstat)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
