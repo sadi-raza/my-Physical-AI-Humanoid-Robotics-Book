@@ -208,3 +208,10 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Active Technologies
+- Python 3.11 (for FastAPI backend), JavaScript/TypeScript (for Docusaurus frontend), ROS2 (Python/C++) + FastAPI, Qdrant, NeonDB, ChatKit, OpenAI Agents, Docusaurus, Better-Auth, ROS2 ecosystem (001-textbook-rag-platform)
+- NeonDB (PostgreSQL) for user data and personalization, Qdrant for vector storage of textbook content (001-textbook-rag-platform)
+
+## Recent Changes
+- 001-textbook-rag-platform: Added Python 3.11 (for FastAPI backend), JavaScript/TypeScript (for Docusaurus frontend), ROS2 (Python/C++) + FastAPI, Qdrant, NeonDB, ChatKit, OpenAI Agents, Docusaurus, Better-Auth, ROS2 ecosystem
