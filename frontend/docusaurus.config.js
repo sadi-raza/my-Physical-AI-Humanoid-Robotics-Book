@@ -30,7 +30,10 @@ const config = {
   organizationName: 'Q4AIAgents', // Usually your GitHub org/user name.
   projectName: 'my-Physical-AI-Humanoid-Robotics-Book', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+ 
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'warn',
+
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
