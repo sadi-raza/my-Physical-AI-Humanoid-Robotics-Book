@@ -30,7 +30,7 @@ const config = {
   organizationName: 'Q4AIAgents', // Usually your GitHub org/user name.
   projectName: 'my-Physical-AI-Humanoid-Robotics-Book', // Usually your repo name.
 
- 
+ // changed value
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
